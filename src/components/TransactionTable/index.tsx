@@ -13,7 +13,7 @@ export function TransactionTable() {
                         <td>Desenvolvimento de website</td>
                         <td>
                             <PriceHighlight variant='income'>
-                                R$ 12.000,00
+                                R$ 11.000,00
                             </PriceHighlight>
                         </td>
                         <td>Freelancer</td>
@@ -23,7 +23,7 @@ export function TransactionTable() {
                         <td>Manutenção de site</td>
                         <td>
                             <PriceHighlight variant='income'>
-                                R$ 1.000,00
+                                R$ 1.100,00
                             </PriceHighlight>
                         </td>
                         <td>Desenvolvimento</td>
@@ -33,7 +33,7 @@ export function TransactionTable() {
                         <td>Alimentação</td>
                         <td>
                             <PriceHighlight variant='outcome'>
-                                R$ - 500,00
+                                R$ - 400,00
                             </PriceHighlight>
                         </td>
                         <td>Despesa Pessoal</td>
