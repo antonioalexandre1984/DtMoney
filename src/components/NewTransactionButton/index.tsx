@@ -1,13 +1,13 @@
-import { NewTransactionButtonContainer } from './styles';
+import { NewTransactionButtonContainer } from './styles'
 
 interface ButtonProps {
-  type: 'button' | 'submit' | 'reset' | undefined;
+  type: 'button' | 'submit' | 'reset' | undefined
 }
 
 export function NewTransactionButton({ ...props }: ButtonProps) {
   return (
     <NewTransactionButtonContainer {...props}>
       Nova transação
-    </NewTransactionButtonContainer >
-  );
+    </NewTransactionButtonContainer>
+  )
 }

@@ -1,43 +1,84 @@
 {
-    "transactions": [
+  "transactions": [
     {
-        "id": 1,
-        "description": "development app",
-        "type": "income",
-        "price": 14000,
-        "category": "development",
-        "createdAt": "2022-12-06T23:37:42.552Z"
+      "id": 1,
+      "description": "development app",
+      "type": "income",
+      "value": 14000,
+      "category": "development",
+      "createdAt": "2022-12-06T23:37:42.552Z"
     },
     {
-        "id": 2,
-        "description": "manutenção app",
-        "type": "income",
-        "price": 1000,
-        "category": "development",
-        "createdAt": "2022-12-06T23:37:42.552Z"
-    }, {
-        "id": 3,
-        "description": "consultoria app",
-        "type": "income",
-        "price": 2000,
-        "category": "development",
-        "createdAt": "2022-12-06T23:37:42.552Z"
+      "id": 2,
+      "description": "manutenção app",
+      "type": "income",
+      "value": 1000,
+      "category": "development",
+      "createdAt": "2022-12-06T23:37:42.552Z"
     },
     {
-        "id": 4,
-        "description": "aluguel",
-        "type": "outcome",
-        "price": 500,
-        "category": "despesa fixas",
-        "createdAt": "2022-12-06T23:37:42.552Z"
+      "id": 3,
+      "description": "consultoria app",
+      "type": "income",
+      "value": 2000,
+      "category": "development",
+      "createdAt": "2022-12-06T23:37:42.552Z"
     },
-      {
-        "id": 5,
-        "description": "internet",
-        "type": "outcome",
-        "price": 500,
-        "category": "despesa fixas",
-        "createdAt": "2022-12-06T23:37:42.552Z"
+    {
+      "id": 4,
+      "description": "aluguel",
+      "type": "outcome",
+      "value": 500,
+      "category": "despesa fixas",
+      "createdAt": "2022-12-06T23:37:42.552Z"
+    },
+    {
+      "id": 5,
+      "description": "internet",
+      "type": "outcome",
+      "value": 500,
+      "category": "despesa fixas",
+      "createdAt": "2022-12-06T23:37:42.552Z"
+    },
+    {
+      "description": "Moto G8",
+      "value": 1000,
+      "category": "tech",
+      "type": "income",
+      "id": 6,
+      "createdAt": "2022-12-06T23:37:42.552Z"
+    },
+    {
+      "description": "link de internet",
+      "value": 99,
+      "category": "fixed",
+      "type": "outcome",
+      "createdAt": "2022-12-07T18:53:32.452Z",
+      "id": 7
+    },
+    {
+      "description": "movies",
+      "value": 100,
+      "category": "fun",
+      "type": "outcome",
+      "createdAt": "2022-12-07T19:11:29.272Z",
+      "id": 8
+    },
+    {
+      "description": "pao",
+      "value": 10,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2022-12-07T19:12:08.075Z",
+      "id": 9
+    },
+    {
+      "description": "desktop",
+      "value": 3000,
+      "category": "trech",
+      "type": "outcome",
+      "createdAt": "2022-12-07T19:36:14.814Z",
+      "id": 10
     }
-    ]
+  ]
 }

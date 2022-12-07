@@ -1,5 +1,3 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-export const TransactionContainer = styled.div`
-
-`;
+export const TransactionContainer = styled.div``

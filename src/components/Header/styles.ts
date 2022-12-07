@@ -1,20 +1,19 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-background:${(props) => props.theme['gray-1-background']};  
-padding: 2.5rem 0 7.5rem;
-`;
+  background: ${(props) => props.theme['gray-1-background']};
+  padding: 2.5rem 0 7.5rem;
+`
 
 export const HeaderContent = styled.div`
-max-width: 70rem;
-width:100%;
-margin: 0 auto;
-display: flex;
-padding: 0 1.5rem;
-align-items: center;
-justify-content: space-between;
-
- `;
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+`
 
 /* export const NewTransactionButton = styled.button`
 height: 3.125rem;
