@@ -6,8 +6,6 @@ interface TransactionTypeButtonProps {
   variant: 'income' | 'outcome'
 }
 
-export const NewTransactionModalContainer = styled.div``
-
 export const Overlay = styled(Dialog.Overlay)`
   position: fixed;
   width: 100vw;

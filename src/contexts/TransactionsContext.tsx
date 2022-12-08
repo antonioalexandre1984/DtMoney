@@ -1,4 +1,5 @@
-import { createContext, useEffect, useState } from 'react'
+/* eslint-disable react-hooks/exhaustive-deps */
+import { createContext, useCallback, useEffect, useState } from 'react'
 import { api } from '../lib/axios'
 
 export interface Transaction {
@@ -44,18 +45,21 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     setTransactions(response.data)
   }
 
-  async function createTransaction(data: CreateTransactionInput) {
-    const { description, value, category, type } = data
-    const response = await api.post('/transactions', {
-      description,
-      value,
-      category,
-      type,
-      createdAt: new Date(),
-    })
-    setTransactions((state) => [response.data, ...state])
-    console.log(response.data)
-  }
+  const createTransaction = useCallback(
+    async (data: CreateTransactionInput) => {
+      const { description, value, category, type } = data
+      const response = await api.post('/transactions', {
+        description,
+        value,
+        category,
+        type,
+        createdAt: new Date(),
+      })
+      setTransactions((state) => [response.data, ...state])
+      console.log(response.data)
+    },
+    [],
+  )
 
   useEffect(() => {
     fetchTransactions()

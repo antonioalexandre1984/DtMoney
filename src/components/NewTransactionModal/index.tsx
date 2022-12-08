@@ -1,7 +1,6 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react'
 import {
-  NewTransactionModalContainer,
   Overlay,
   Content,
   CloseButton,
@@ -22,9 +21,12 @@ const NewTransactionModalSchema = z.object({
 
 type NewTransactionModalInput = z.infer<typeof NewTransactionModalSchema>
 
-export function NewTransactionModal() {
-  const { createTransaction } = useTransaction()
+interface Props {
+  setDialogIsOpen: (isOpen: boolean) => void
+}
 
+export function NewTransactionModal({ setDialogIsOpen }: Props) {
+  const { createTransaction } = useTransaction()
   const {
     register,
     handleSubmit,
@@ -46,19 +48,18 @@ export function NewTransactionModal() {
       type,
     })
     reset()
+    setDialogIsOpen(false)
   }
 
   return (
-    <NewTransactionModalContainer
-      onSubmit={handleSubmit(handleCreateNewTransactionModal)}
-    >
+    <Dialog.Portal>
       <Overlay>
         <Content>
           <Dialog.Title>New Transaction</Dialog.Title>
           <CloseButton>
             <X size={24} />
           </CloseButton>
-          <form>
+          <form onSubmit={handleSubmit(handleCreateNewTransactionModal)}>
             <input
               type="text"
               placeholder="Description"
@@ -108,6 +109,6 @@ export function NewTransactionModal() {
           </form>
         </Content>
       </Overlay>
-    </NewTransactionModalContainer>
+    </Dialog.Portal>
   )
 }

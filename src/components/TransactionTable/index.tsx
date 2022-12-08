@@ -3,8 +3,8 @@ import {
   TransactionsTable,
   PriceHighlight,
 } from './styles'
-import { useTransaction } from '../../hooks/useTransaction'
 import { priceFormatter, dateFormatter } from '../../utils/formatMoney'
+import { useTransaction } from '../../hooks/useTransaction'
 
 export function TransactionTable() {
   const { transactions } = useTransaction()
