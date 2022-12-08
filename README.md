@@ -39,18 +39,22 @@ Projeto sobre uma aplicação de e-comerce de venda café on-line com serviço d
 ## ⚙️ Instalação
 ```
 # Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/antonioalexandre1984/Ignite_CoffeeDelivery.git
+$ git clone https://github.com/antonioalexandre1984/DtMoney.git
 ```
 
 ```
 # Acesse a pasta da aplicação
-$ cd Ignite_CoffeeDelivery
+$ cd DtMoney
 
 # Instale as dependências
 $ yarn
 
 # Inicie a aplicação
 $ yarn start
+
+Em outro terminal inicie o servidor json server
+
+yarn dev:server 
 
 ```
 
