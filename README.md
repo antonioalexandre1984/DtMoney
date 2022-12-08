@@ -1,4 +1,4 @@
-# CoffeeDelivery
+# DtMoney
 
 ![mock1](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/main/public/app/telaPrincipal.jpg)
 
@@ -10,9 +10,9 @@ Projeto sobre uma aplicação de e-comerce de venda café on-line com serviço d
 
 ## 💻 O que tem no projeto?
 
-* Front-end bem clean, desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file/pu332zPyxb8uJlrwP0YVwG/Coffee-Delivery-(Copy)?node-id=0%3A1&t=2kV7WOmnFBBVgzD9-0).
+* Front-end bem clean, desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file/SBbe318wMuv9aTfusGZJFW/DT-Money-(Community)?node-id=0%3A1&t=FroI06IVxhwSJJNl-0).
 * Integração do front-end com bibliotecas de verifição do formulario.
-* Na pagina de inserção de endereço de entrega foi utilizado o React Hook Form juntamente com a biblioteca Zod para verificação do conteudo.
+* Na página principal temos um campo de busca onde é possivel localizar determinada transação de acordo com texto digitado.
 * Na estilização da aplicação foi escolhido o styled component devido a sua facilidade em sua sintaxe e por deixar o código mais clean e performatico possivel. 
 
 &nbsp;
@@ -35,6 +35,7 @@ Projeto sobre uma aplicação de e-comerce de venda café on-line com serviço d
 * [React-Hook-Form](https://react-hook-form.com/).
 * [Styled-Components](https://styled-components.com/).
 * [Zod](https://www.npmjs.com/package/zod).
+* [Json-server](https://www.npmjs.com/package/json-server)
 
 &nbsp;
 
