@@ -1,6 +1,6 @@
 # DtMoney
 
-![mock1](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/main/public/app/telaPrincipal.jpg)
+![mock1](https://raw.githubusercontent.com/antonioalexandre1984/DtMoney/sprint02/src/assets/appScreens/main.png)
 
 ## 📚 Informações sobre o projeto
 
@@ -17,14 +17,9 @@ Projeto sobre uma aplicação de e-comerce de venda café on-line com serviço d
 
 &nbsp;
 
-![mock2](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/main/public/app/carrinhoPrincipal.jpg)
+![mock2](https://github.com/antonioalexandre1984/DtMoney/blob/sprint02/src/assets/appScreens/modal.png)
 
-![mock2](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/sprint02/public/app/verificacaoFormulario.png)
-
-![mock2](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/sprint02/public/app/pedidoSolicitado.jpg)
-
-![mock2](https://raw.githubusercontent.com/antonioalexandre1984/Ignite_CoffeeDelivery/sprint02/public/app/pedidoConfirmado.jpg)
-
+![mock2](https://github.com/antonioalexandre1984/DtMoney/blob/sprint02/src/assets/appScreens/search.png)
 
 
 &nbsp;
