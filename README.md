@@ -5,7 +5,7 @@
 ## 📚 Informações sobre o projeto
 
 *About
-Projeto sobre uma aplicação de e-comerce de venda café on-line com serviço de delivery. Na pagina principal o cliente pode escolher entre os diversos tipos de cafés e adiciona-los no carrinho. Na tela seguinte o cliente realiza o checkout inserindo o endereço de entrega bem com a forma de pagamento. Na proxima tela exibe a confirmação do pedido.
+Neste projeto temos organizador financeiro pessoal. No app é possivel realizar o cadastro de suas receitas e despesas. Ao cadastrar uma nova transação é possivel incluir o nome, valor e categoria além de apontar o tipo da transação. Na tela principal é listado as transações além da opção de buscar por determinada operação.
 &nbsp;
 
 ## 💻 O que tem no projeto?
