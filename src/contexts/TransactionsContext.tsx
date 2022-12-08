@@ -29,10 +29,23 @@ interface TransactionsProviderProps {
   children: React.ReactNode
 }
 
+/* const DTMONEY_STORAGE_KEY = '@dtmoney:transactions' */
+
 export const TransactionsContext = createContext({} as TransactionsContextType)
 
 export function TransactionsProvider({ children }: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
+  /*   const storageTransactions = localStorage.getItem(DTMONEY_STORAGE_KEY) */
+
+  /*   if (storageTransactions) {
+      return JSON.parse(storageTransactions)
+    }
+    return []
+  }) */
+
+  /*   useEffect(() => {
+    localStorage.setItem(DTMONEY_STORAGE_KEY, JSON.stringify(transactions))
+  }, [transactions]) */
 
   async function fetchTransactions(query?: string) {
     const response = await api.get('/transactions', {

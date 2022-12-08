@@ -1,108 +1,28 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "development app",
-      "type": "income",
-      "value": 14000,
-      "category": "development",
-      "createdAt": "2022-12-06T23:37:42.552Z"
-    },
-    {
-      "id": 2,
-      "description": "manutenção app",
-      "type": "income",
-      "value": 1000,
-      "category": "development",
-      "createdAt": "2022-12-06T23:37:42.552Z"
-    },
-    {
-      "id": 3,
-      "description": "consultoria app",
-      "type": "income",
+      "description": "desenvolvimento de app",
       "value": 2000,
-      "category": "development",
-      "createdAt": "2022-12-06T23:37:42.552Z"
-    },
-    {
-      "id": 4,
-      "description": "aluguel",
-      "type": "outcome",
-      "value": 500,
-      "category": "despesa fixas",
-      "createdAt": "2022-12-06T23:37:42.552Z"
-    },
-    {
-      "id": 5,
-      "description": "internet",
-      "type": "outcome",
-      "value": 500,
-      "category": "despesa fixas",
-      "createdAt": "2022-12-06T23:37:42.552Z"
-    },
-    {
-      "description": "Moto G8",
-      "value": 1000,
-      "category": "tech",
+      "category": "freelancer",
       "type": "income",
-      "id": 6,
-      "createdAt": "2022-12-06T23:37:42.552Z"
+      "createdAt": "2022-12-08T01:27:07.602Z",
+      "id": 1
     },
     {
-      "description": "link de internet",
-      "value": 99,
-      "category": "fixed",
-      "type": "outcome",
-      "createdAt": "2022-12-07T18:53:32.452Z",
-      "id": 7
-    },
-    {
-      "description": "movies",
+      "description": "Criação de landing Page",
       "value": 100,
-      "category": "fun",
-      "type": "outcome",
-      "createdAt": "2022-12-07T19:11:29.272Z",
-      "id": 8
-    },
-    {
-      "description": "pao",
-      "value": 10,
-      "category": "alimentação",
-      "type": "outcome",
-      "createdAt": "2022-12-07T19:12:08.075Z",
-      "id": 9
-    },
-    {
-      "description": "desktop",
-      "value": 3000,
-      "category": "trech",
-      "type": "outcome",
-      "createdAt": "2022-12-07T19:36:14.814Z",
-      "id": 10
-    },
-    {
-      "description": "Uau Atendimento",
-      "value": 82000,
-      "category": "filha",
+      "category": "freelancer",
       "type": "income",
-      "createdAt": "2022-12-08T00:29:40.114Z",
-      "id": 11
+      "createdAt": "2022-12-08T01:27:46.170Z",
+      "id": 2
     },
     {
-      "description": "movies",
-      "value": 500,
-      "category": "fun",
-      "type": "income",
-      "createdAt": "2022-12-08T00:33:01.202Z",
-      "id": 12
-    },
-    {
-      "description": "comunidade opensource",
-      "value": 82000,
-      "category": "fdsfdsfds",
-      "type": "income",
-      "createdAt": "2022-12-08T00:38:38.018Z",
-      "id": 13
+      "description": "Notebook",
+      "value": 1500,
+      "category": "despesa equipamento",
+      "type": "outcome",
+      "createdAt": "2022-12-08T01:28:19.684Z",
+      "id": 3
     }
   ]
 }
